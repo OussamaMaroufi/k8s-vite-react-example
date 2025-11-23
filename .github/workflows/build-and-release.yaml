@@ -5,11 +5,10 @@ on:
   push:
     branches:
       - main
-
 env:
-    IMAGE_NAME_PREFIX: ${{ github.repository_owner }}/client
-    IMAGE_NAME_GHCR_PREFIX: ghcr.io/${{ github.repository_owner }}/client
-    KUSTOMIZE_VERSION: v5.4.1
+  IMAGE_NAME_PREFIX: ${{ lower(github.repository_owner) }}/client
+  IMAGE_NAME_GHCR_PREFIX: ghcr.io/${{ lower(github.repository_owner) }}/client
+  KUSTOMIZE_VERSION: v5.4.1
 
 permissions: read-all    
 
