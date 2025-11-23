@@ -6,8 +6,8 @@ on:
     branches:
       - main
 env:
-  IMAGE_NAME_PREFIX: ${{ lower(github.repository_owner) }}/client
-  IMAGE_NAME_GHCR_PREFIX: ghcr.io/${{ lower(github.repository_owner) }}/client
+  IMAGE_NAME_PREFIX: oussamamaroufi/client
+  IMAGE_NAME_GHCR_PREFIX: ghcr.io/oussamamaroufi/client
   KUSTOMIZE_VERSION: v5.4.1
 
 permissions: read-all    
