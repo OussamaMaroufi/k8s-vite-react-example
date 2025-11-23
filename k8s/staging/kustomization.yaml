@@ -16,4 +16,4 @@ patchesJson6902:
 images:
 - name: IMAGE_NAME
   newName: ghcr.io/oussamamaroufi/client
-  newTag: 7309cb62c2f9a3693d0577aa1bdbde7f036330c6
+  newTag: 48b8eab686597ce5831a40f4bd435c2240728af0
