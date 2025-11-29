@@ -17,3 +17,8 @@ images:
 - name: IMAGE_NAME
   newName: ghcr.io/oussamamaroufi/client
   newTag: 48b8eab686597ce5831a40f4bd435c2240728af0
+
+
+# Patch the Deployment to add imagePullSecrets
+patchesStrategicMerge:
+- imagepullsecret-patch.yaml
