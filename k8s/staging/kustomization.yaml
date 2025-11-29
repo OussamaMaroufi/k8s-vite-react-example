@@ -16,7 +16,7 @@ patchesJson6902:
 images:
 - name: IMAGE_NAME
   newName: ghcr.io/oussamamaroufi/client
-  newTag: 48b8eab686597ce5831a40f4bd435c2240728af0
+  newTag: 06f7c2bbcb16407c4443550ae3b53fa2799dc769
 
 
 # Patch the Deployment to add imagePullSecrets
